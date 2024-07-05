@@ -30,7 +30,6 @@ function main() {
   zshTheme
   switchCase "Install" "ZSH Themes" installZshTheme
 
-  NvChad
   utility
 
   mainAlert
