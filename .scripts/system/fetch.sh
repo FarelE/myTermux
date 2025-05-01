@@ -10,27 +10,6 @@ for LIBRARY in ${LIBRARYS[@]}; do
   source ${LIBRARY_PATH}/${LIBRARY}.sh
 done
 
-function fetchMusic() {
-
-  MPD_HOST=127.0.0.1 # or localhost
-  MPD_PORT=8000 # Depend your MPD configuration
-  #MPC_CONNECT_MPD=$(mpc --host=${MPD_HOST} --port=${MPD_PORT} &> /dev/null)
-
-  if mpc --host=${MPD_HOST} --port=${MPD_PORT} &> /dev/null; then
-
-    GET_MUSIC_ARTIST=$(mpc --host=${MPD_HOST} --port=${MPD_PORT} --format '[%artist%]' current 2> /dev/null)
-    GET_MUSIC_TITLE=$(mpc --host=${MPD_HOST} --port=${MPD_PORT} --format '[%title%]' current 2> /dev/null)
-
-    echo -e "${GET_MUSIC_ARTIST} - ${GET_MUSIC_TITLE}"
-
-  else
-
-    echo -e "Unknown Artist - Unknown Song"
-
-  fi
-
-}
-
 function fetchStorage() {
 
   MOUNTED_ON="/storage/emulated"
@@ -328,7 +307,6 @@ function fetchHelp() {
   "
   
   echo -e "Options:
-  music     Fetch script music
   battery   Fetch script battery (${COLOR_WARNING}require option2${COLOR_BASED})
   storage   Fetch script storage (${COLOR_WARNING}require option2${COLOR_BASED})
   help      Print help message
@@ -340,10 +318,6 @@ case ${1} in
 
   battery )
     fetchBattery ${2}
-  ;;
-
-  music )
-    fetchMusic
   ;;
 
   storage )
