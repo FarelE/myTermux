@@ -2,7 +2,7 @@
 
 HELPERS=(
   colors animation banner package switchcase
-  dotfiles clone themes nvchad utility
+  dotfiles clone themes utility
   stat signal screen cursor finish
 )
 
@@ -30,7 +30,6 @@ function main() {
   zshTheme
   switchCase "Install" "ZSH Themes" installZshTheme
 
-  NvChad
   utility
 
   mainAlert
