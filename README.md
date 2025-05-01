@@ -142,33 +142,6 @@ export COLUMNS LINES
 
   ![zsh_out](https://user-images.githubusercontent.com/64394320/170211230-059d59be-376b-440c-9fb9-ea3750c983b9.png)
 
-- [NVIM] - Text Editor
-
-  ![nvim_out](https://user-images.githubusercontent.com/64394320/170211252-e11d41cf-7674-40e5-b1f8-11ac3320a83f.png)
-
-  <details>
-  <summary>Show Theme</summary>
-
-  ![NvChad Theme](https://i.ibb.co/6DqyPqT/final-text-editor.png)
-
-  </details>
-
-- [NCMPCPP] - Music Player
-
-  ![music_out](https://user-images.githubusercontent.com/64394320/170211279-a26d0f0e-1cf8-4b8b-ae21-8a1a79515574.png)
-
-- [COLORTOYS] - Pipes
-
-  ![pipes](https://user-images.githubusercontent.com/66439853/178114136-25a80169-2413-4a92-ac4b-e0df649da5f2.png)
-
-- [COLORTOYS] - Panes, Bar, Bloks
-
-  ![panes-bar-bloks](https://user-images.githubusercontent.com/66439853/178114094-1e1a9956-46f9-446b-a527-86b61e9c77e0.png)
-
-- [NYANCAT]
-
-  ![nyancat_out](https://user-images.githubusercontent.com/64394320/170211265-40e42967-1aee-40ad-9a39-11e9a45139ee.png)
-
 ## Credits
 
 - [siduck](https://github.com/siduck) Neovim Setup (NvChad), Colorscheme (onedark-siduck)
