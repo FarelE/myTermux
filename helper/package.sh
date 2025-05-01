@@ -2,7 +2,7 @@
 
 PACKAGES=(
   awesomeshot bat curl eza fzf git imagemagick
-  inotify-tools lf
+  inotify-tools lf which
   neofetch termux-api tmux zsh
 )
 
