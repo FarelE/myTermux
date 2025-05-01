@@ -35,31 +35,6 @@ alias myiphotspot="~/.scripts/system/ip.sh hotspot"
 alias myipvpn="~/.scripts/system/ip.sh vpn"
 alias myipall="~/.scripts/system/ip.sh all"
 
-#Music    
-alias n="ncmpcpp"
-alias mkill="mpd --kill"
-alias m="music"
-alias ncmpcpp-compile="~/myTermux/compile/install/ncmpcpp-compile.sh"
-
-#Color Toys
-alias 256colors2="~/.scripts/toys/256colors2.pl"
-alias bloks="~/.scripts/toys/bloks"
-alias colortest="~/.scripts/toys/colortest"
-alias colortest-slim="~/.scripts/toys/colortest-slim"
-alias colorview="~/.scripts/toys/colorview"
-alias colorbars="~/.scripts/toys/colorbars"
-alias panes="~/.scripts/toys/panes"
-alias pipes1="~/.scripts/toys/pipes1"
-alias pipes2="~/.scripts/toys/pipes2"
-alias pipes2-slim="~/.scripts/toys/pipes2-slim"
-alias dna="~/.scripts/toys/dna"
-alias ghost="~/.scripts/toys/ghost"
-alias jfetch="~/.scripts/toys/jfetch"
-alias pacman="~/.scripts/toys/pacman"
-alias pipesx="~/.scripts/toys/pipesx"
-alias rains="~/.scripts/toys/rains"
-alias spacey="~/.scripts/toys/spacey"
-
 #archives .deb
 alias archives="cd /data/data/com.termux/cache/apt/archives/"
 
@@ -99,23 +74,6 @@ alias protlogin="proot-distro login $1"
 alias listfont="magick convert -list font | grep -iE 'font:.*'"
 
 ## Configuration
-
-#mpd
-alias mpdconf="nvim ~/.config/mpd/mpd.conf"
-alias mpconf="nvim /data/data/com.termux/files/usr/etc/mpd.conf"
-
-#ncmpcpp    
-alias ncmconf="nvim ~/.config/ncmpcpp/config"
-
-#neovim
-alias nviminit="nvim ~/.config/nvim/init.lua"
-alias nvimtheme="nvim ~/.config/nvim/lua/chadrc.lua"
-alias nvimplug="nvim ~/.config/nvim/lua/pluginList.lua"
-alias nvimmap="nvim ~/.config/nvim/lua/mappings.lua"
-alias nvimpacnit="nvim ~/.config/nvim/lua/packerInit.lua"
-alias nvimsin="nvim ~/.config/nvim/lua/core/xshin.lua"
-alias nvimhighlight="nvim ~/.config/nvim/lua/hightlights.lua"
-alias nvimcore="nvim ~/.config/nvim/lua/core/init.lua"
 
 #zsh
 alias zshconf="nvim ~/.zshrc"
