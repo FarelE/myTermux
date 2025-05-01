@@ -2,8 +2,7 @@
 
 PACKAGES=(
   awesomeshot bat curl eza fzf git imagemagick
-  lf which
-  neofetch termux-api tmux zsh
+  lf which termux-api tmux zsh
 )
 
 function packages() {
